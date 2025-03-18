@@ -69,6 +69,16 @@ body {
     transform: scale(1.1);
 }
 
+#credits {
+  font-size: 0.8rem;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 300;
+  transition: transform 0.5s ease-in-out;
+  color: #333;
+}
+
 p, a, h1, label {
     font-family: 'Lato', sans-serif;
     filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.5));
@@ -79,15 +89,7 @@ a {
     color: #333;
 }
 
-#credits {
-    font-size: 0.8rem;
-    color: #333;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: 300;
-    transition: transform 0.5s ease-in-out;
-    color: #333;
-}
+
 
 h1 {
     font-size: 2.5rem;
