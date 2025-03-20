@@ -16,7 +16,7 @@
     <div class="container">
         <h1>Subnet Calculator</h1>
         <form action="" method="post">
-            <label for="ip">IP Address:</label>
+            <label for="ip">CIDR:</label>
             <input type="range" name="subnet" id="subnet" placeholder="" min="1" max="31" value="24" required oninput="calculateIpAdresses(this.value)">
             <p id="subnetmask">Subnet Mask: 24</p>
             <p id="subaddresses">Number of available Addresses: 254 <br> (256 including Network and Broadcast)</p>
